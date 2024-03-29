@@ -8,6 +8,8 @@ Developed based on an example given in freecodecamp. Entirely developed with rea
 
 # 📱 Screenshot of the app
 
+![Calculator app react native](./docs/Calculator_App_Mobile_React_Native-animated.gif)
+
 ![Calculator app react native](./docs/Calculator_App_Mobile_React_Native.png)
 
 # Getting Started

@@ -19,6 +19,7 @@ export default class App extends Component {
       <View style={styles.container}>
         {/* Status */}
         <SafeAreaView>
+          <Text style={styles.valueNew}>{this.state.currentTempValue}</Text>
           <Text style={styles.value}>
             {parseFloat(this.state.currentValue).toLocaleString()}
           </Text>
@@ -109,6 +110,13 @@ const styles = StyleSheet.create({
   value: {
     color: '#ffffff',
     fontSize: 44,
+    textAlign: 'right',
+    marginRight: 20,
+    marginBottom: 10,
+  },
+  valueNew: {
+    color: '#DDDDDD',
+    fontSize: 22,
     textAlign: 'right',
     marginRight: 20,
     marginBottom: 10,
